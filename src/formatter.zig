@@ -1,8 +1,10 @@
 const std = @import("std");
 const guard_blank_line = @import("formatter/rules/guard_blank_line.zig");
+const empty_lines_around_modifier = @import("formatter/rules/empty_lines_around_modifier.zig");
 const operator_spacing = @import("formatter/rules/operator_spacing.zig");
 const align_method_chain = @import("formatter/rules/align_method_chain.zig");
 const block_brace_spacing = @import("formatter/rules/block_brace_spacing.zig");
+const trailing_whitespace = @import("formatter/rules/trailing_whitespace.zig");
 const rule_types = @import("formatter/rule.zig");
 
 pub const FormatResult = struct {
@@ -15,8 +17,10 @@ pub const FormatResult = struct {
 };
 
 const rules = [_]rule_types.Rule{
+    .{ .apply = trailing_whitespace.apply },
     .{ .apply = align_method_chain.apply },
     .{ .apply = guard_blank_line.apply },
+    .{ .apply = empty_lines_around_modifier.apply },
     .{ .apply = operator_spacing.apply },
     .{ .apply = block_brace_spacing.apply },
 };
@@ -78,4 +82,3 @@ test "applyRulesToFile writes updates into the file" {
 
     try std.testing.expectEqualStrings("return if foo\n\nputs 'bar'\n", updated);
 }
-
