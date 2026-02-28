@@ -11,7 +11,7 @@
 1. `Issue: Layout/TrailingWhitespace`
    - 末尾空白（space/tab）を削除する
    - 低リスクで自動修正しやすいため最優先
-2. `Issue: Layout/EmptyLinesAroundModifier`
+2. `Issue: Layout/EmptyLinesAroundModifier` ✅
    - https://github.com/atolix/rx/issues/10
    - 修飾子付き `if/unless` 前後の空行ルールを統一する
    - 既存 `guard_blank_line` との差分を埋める
@@ -24,7 +24,7 @@
 5. `Issue: Layout/SpaceInsideParens`
    - https://github.com/atolix/rx/issues/13
    - 丸括弧内スペースの統一
-6. `Issue: Layout/SpaceAfterComma`
+6. `Issue: Layout/SpaceAfterComma` ✅
    - https://github.com/atolix/rx/issues/14
    - カンマ後スペースの統一
 7. `Issue: Layout/HashAlignment`
