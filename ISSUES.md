@@ -21,7 +21,7 @@
 4. `Issue: Layout/IndentationWidth`
    - https://github.com/atolix/rx/issues/12
    - インデント幅（標準2スペース）の強制
-5. `Issue: Layout/SpaceInsideParens`
+5. `Issue: Layout/SpaceInsideParens` ✅
    - https://github.com/atolix/rx/issues/13
    - 丸括弧内スペースの統一
 6. `Issue: Layout/SpaceAfterComma` ✅
