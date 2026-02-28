@@ -8,6 +8,7 @@
 - [x] `Layout/SpaceInsideBlockBraces` (`block_brace_spacing.zig`)
 - [x] `Layout/LeadingEmptyLines` (`leading_empty_lines.zig`)
 - [x] `Layout/TrailingEmptyLines` (`trailing_empty_lines.zig`)
+- [x] `Layout/SpaceBeforeComma` (`space_before_comma.zig`)
 
 未実装 Issue:
 1. `Issue: Layout/TrailingWhitespace`
