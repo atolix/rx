@@ -5,6 +5,7 @@ const operator_spacing = @import("formatter/rules/operator_spacing.zig");
 const align_method_chain = @import("formatter/rules/align_method_chain.zig");
 const block_brace_spacing = @import("formatter/rules/block_brace_spacing.zig");
 const trailing_whitespace = @import("formatter/rules/trailing_whitespace.zig");
+const trailing_empty_lines = @import("formatter/rules/trailing_empty_lines.zig");
 const space_after_comma = @import("formatter/rules/space_after_comma.zig");
 const space_inside_parens = @import("formatter/rules/space_inside_parens.zig");
 const indentation_width = @import("formatter/rules/indentation_width.zig");
@@ -21,6 +22,7 @@ pub const FormatResult = struct {
 
 const rules = [_]rule_types.Rule{
     .{ .apply = trailing_whitespace.apply },
+    .{ .apply = trailing_empty_lines.apply },
     .{ .apply = align_method_chain.apply },
     .{ .apply = guard_blank_line.apply },
     .{ .apply = empty_lines_around_modifier.apply },

@@ -6,6 +6,7 @@
 - [x] `Layout/SpaceAroundOperators` (`operator_spacing.zig`)
 - [x] `Layout/DotPosition` 相当（メソッドチェーンの整列として一部対応, `align_method_chain.zig`)
 - [x] `Layout/SpaceInsideBlockBraces` (`block_brace_spacing.zig`)
+- [x] `Layout/TrailingEmptyLines` (`trailing_empty_lines.zig`)
 
 未実装 Issue:
 1. `Issue: Layout/TrailingWhitespace`
