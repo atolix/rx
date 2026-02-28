@@ -12,6 +12,7 @@
 - [x] `Layout/SpaceBeforeComment` (`space_before_comment.zig`)
 - [x] `Layout/SpaceInsideArrayLiteralBrackets` (`space_inside_array_literal_brackets.zig`)
 - [x] `Layout/SpaceInsideHashLiteralBraces` (`space_inside_hash_literal_braces.zig`)
+- [x] `Layout/SpaceInsideReferenceBrackets` (`space_inside_reference_brackets.zig`)
 
 未実装 Issue:
 1. `Issue: Layout/TrailingWhitespace`
