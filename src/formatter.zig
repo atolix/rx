@@ -11,6 +11,7 @@ const space_before_comma = @import("formatter/rules/space_before_comma.zig");
 const space_before_comment = @import("formatter/rules/space_before_comment.zig");
 const space_after_comma = @import("formatter/rules/space_after_comma.zig");
 const space_inside_array_literal_brackets = @import("formatter/rules/space_inside_array_literal_brackets.zig");
+const space_inside_hash_literal_braces = @import("formatter/rules/space_inside_hash_literal_braces.zig");
 const space_inside_parens = @import("formatter/rules/space_inside_parens.zig");
 const indentation_width = @import("formatter/rules/indentation_width.zig");
 const rule_types = @import("formatter/rule.zig");
@@ -37,6 +38,7 @@ const rules = [_]rule_types.Rule{
     .{ .apply = space_after_comma.apply },
     .{ .apply = space_before_comment.apply },
     .{ .apply = space_inside_array_literal_brackets.apply },
+    .{ .apply = space_inside_hash_literal_braces.apply },
     .{ .apply = space_inside_parens.apply },
     .{ .apply = block_brace_spacing.apply },
 };
