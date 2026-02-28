@@ -10,6 +10,7 @@
 - [x] `Layout/TrailingEmptyLines` (`trailing_empty_lines.zig`)
 - [x] `Layout/SpaceBeforeComma` (`space_before_comma.zig`)
 - [x] `Layout/SpaceBeforeComment` (`space_before_comment.zig`)
+- [x] `Layout/SpaceInsideArrayLiteralBrackets` (`space_inside_array_literal_brackets.zig`)
 
 未実装 Issue:
 1. `Issue: Layout/TrailingWhitespace`
