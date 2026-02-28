@@ -18,7 +18,7 @@
 3. `Issue: Layout/LineLength`
    - https://github.com/atolix/rx/issues/11
    - 最大行長超過の検出・自動折り返し（段階的導入）
-4. `Issue: Layout/IndentationWidth`
+4. `Issue: Layout/IndentationWidth` ✅
    - https://github.com/atolix/rx/issues/12
    - インデント幅（標準2スペース）の強制
 5. `Issue: Layout/SpaceInsideParens` ✅
