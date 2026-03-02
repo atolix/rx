@@ -14,6 +14,7 @@
 - [x] `Layout/SpaceInsideHashLiteralBraces` (`space_inside_hash_literal_braces.zig`)
 - [x] `Layout/SpaceInsideReferenceBrackets` (`space_inside_reference_brackets.zig`)
 - [x] `Layout/SpaceAfterColon` (`space_after_colon.zig`)
+- [x] `Layout/HashAlignment` (`hash_alignment.zig`)
 
 未実装 Issue:
 1. `Issue: Layout/TrailingWhitespace`
@@ -35,7 +36,7 @@
 6. `Issue: Layout/SpaceAfterComma` ✅
    - https://github.com/atolix/rx/issues/14
    - カンマ後スペースの統一
-7. `Issue: Layout/HashAlignment`
+7. `Issue: Layout/HashAlignment` ✅
    - https://github.com/atolix/rx/issues/15
    - 複数行ハッシュのキー・セパレータ整列
 
